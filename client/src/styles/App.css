@@ -1,0 +1,48 @@
+#container{
+	  width: 290px;
+    margin: auto;
+}
+.info{
+	display: flex;
+  justify-content: space-between;
+}
+.userContainer{
+  border: 1px solid #ddd;
+  background: #eee;
+  margin-top: 5px;
+}
+.imageContainer{
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+img{
+	border-radius: 50%;
+    padding: 20px;
+}
+.infoContainer{
+	padding-left: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.name{
+	    text-transform: capitalize;
+}
+.title{
+font-weight: bold;
+    padding-right: 5px;
+}
+.buttonContainer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+.responded{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+    justify-content: space-between; 
+}
